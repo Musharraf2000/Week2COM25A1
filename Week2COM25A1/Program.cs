@@ -44,9 +44,19 @@ using Week2COM25A1;
 //r2.PrintArea(); //300
 
 
-BankAccount bankAccount1 = new BankAccount();
-bankAccount1.accountHolderName = "Alice";
-bankAccount1.balance = 20000;
-bankAccount1.DisplayInfo();
-bankAccount1.Deposit(5000); // Deposited 5000. New balance: 25000
-bankAccount1.Withdraw(8000); // Withdrew 8000. New balance: 17000
+//BankAccount bankAccount1 = new BankAccount();
+//bankAccount1.accountHolderName = "Alice";
+//bankAccount1.balance = 20000;
+//bankAccount1.DisplayInfo();
+//bankAccount1.Deposit(5000); // Deposited 5000. New balance: 25000
+//bankAccount1.Withdraw(8000); // Withdrew 8000. New balance: 17000
+
+
+ExamStudent examStudent1 = new ExamStudent();
+examStudent1.name = "Bob";
+examStudent1.AddGrade(60);
+examStudent1.AddGrade(70);
+examStudent1.AddGrade(80);
+examStudent1.AddGrade(90);
+examStudent1.GetAverage();
+examStudent1.PrintInfo(); // Name: Bob, Average Grade: 75, Status: Passed
