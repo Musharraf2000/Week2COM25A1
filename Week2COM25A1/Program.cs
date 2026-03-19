@@ -33,12 +33,20 @@ using Week2COM25A1;
 
 
 
-Rectangle r1 = new Rectangle();  // We create a rectangle object and gave it the length of 10 and width of 5
-r1.length = 10;
-r1.width = 5;
-r1.PrintArea(); //50
+//Rectangle r1 = new Rectangle();  // We create a rectangle object and gave it the length of 10 and width of 5
+//r1.length = 10;
+//r1.width = 5;
+//r1.PrintArea(); //50
 
-Rectangle r2 = new Rectangle();  // We create a rectangle object and gave it the length of 20 and width of 15
-r2.length = 20;
-r2.width = 15;
-r2.PrintArea(); //300
+//Rectangle r2 = new Rectangle();  // We create a rectangle object and gave it the length of 20 and width of 15
+//r2.length = 20;
+//r2.width = 15;
+//r2.PrintArea(); //300
+
+
+BankAccount bankAccount1 = new BankAccount();
+bankAccount1.accountHolderName = "Alice";
+bankAccount1.balance = 20000;
+bankAccount1.DisplayInfo();
+bankAccount1.Deposit(5000); // Deposited 5000. New balance: 25000
+bankAccount1.Withdraw(8000); // Withdrew 8000. New balance: 17000
