@@ -12,5 +12,15 @@ namespace Week2COM25A1
         public int age;
         public int memberId;
         public string phoneNumber;
+
+        public void PrintStudentInfo(){
+            Console.WriteLine($"Name: {name}, Age: {age}, Member ID: {memberId}, Phone Number: {phoneNumber}");
+        }
+
+        public void login() {
+        
+            Console.WriteLine($"{name} has logged in.");
+
+        }
     }
 }
